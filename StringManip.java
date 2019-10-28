@@ -13,12 +13,18 @@ public class StringManip {
             return i;
         }
     }
-    public Integer getIndexOrNull(String str, String str1){
+
+    public Integer getIndexOrNull(String str, String str1) {
         int i = str.indexOf(str1);
-        if(i == -1){
+        if (i == -1) {
             return null;
         } else {
             return i;
         }
+    }
+
+    public String concatSub(String str, int a, int b, String str1) {
+        String subAA = str.substring(a, b);
+        return subAA.concat(str1);
     }
 }

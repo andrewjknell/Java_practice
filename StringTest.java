@@ -14,12 +14,14 @@ public class StringTest {
         Integer testE = strA.getIndexOrNull(word, sub);
         Integer testF = strA.getIndexOrNull(word, subA);
 
+        String subby = strA.concatSub("hello", 1, 2, "whats up");
         System.out.println(testA);
         System.out.println(testB);
         System.out.println(testC);
         System.out.println(testD);
         System.out.println(testE);
         System.out.println(testF);
+        System.out.println(subby);
 
     }
 }
