@@ -1,6 +1,5 @@
 import java.util.*;
 
-
 public class Arrays {
     public void printSome(int num) {
         int sum = 0;
@@ -86,7 +85,7 @@ public class Arrays {
             }
             sum += arr[i];
         }
-        double avg = (sum/arr.length);
+        double avg = (sum / arr.length);
         maths.add(max);
         maths.add(min);
         maths.add(avg);
@@ -95,8 +94,8 @@ public class Arrays {
 
     public ArrayList<Integer> rev(int arr[]) {
         ArrayList<Integer> neww = new ArrayList<Integer>();
-        for (int i = 0; i < arr.length-1; i++) {
-            neww.add(arr[i+1]);
+        for (int i = 0; i < arr.length - 1; i++) {
+            neww.add(arr[i + 1]);
         }
         neww.add(0);
         return neww;
